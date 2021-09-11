@@ -1,4 +1,4 @@
-#### Heterogeneous Risk Minimization
+## Heterogeneous Risk Minimization
 > Jiashuo Liu
 
 This repository contains the code for our ICML21 paper **Heterogeneous Risk Minimization**[1], including the implementation of HRM algorithm and 
@@ -31,3 +31,6 @@ Further, we view the proposed HRM as a general framework, which contains several
 
 
 ps: I am really unsatisfied with the style of my code, and a better version is under development.  
+
+[1]Jiashuo Liu, Zheyuan Hu, Peng Cui, Bo Li, and Zheyan Shen. "Heterogeneous Risk Minimization." ICML(2021).
+[2]Yamada, Y., Lindenbaum, O., Negahban, S., and Kluger, Y. Feature selection using stochastic gates. ICML(2020).
