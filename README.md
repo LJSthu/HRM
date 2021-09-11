@@ -14,7 +14,7 @@ Specifically, the repository contains the following files:
     * `FeatureSelector`: a feature selection module, for which we use the code from [2].
     * `MpModel`: the whole backend module.
 
-Besides, there are many hyper-parameters to be tuned for the whole framework, which are different among different tasks and require users to carefully tune. During the experiments, we found serveral important factors and some intuitive tuning ways:
+Besides, there are many hyper-parameters to be tuned for the whole framework, which are different among different tasks and require users to carefully tune. Note that although we provide the hyper-parameters used in our selection bias experiment, it is possible that the results are not exactly the same as ours, which may due to the randomness or something else. During the experiments, we found serveral important factors and some intuitive tuning ways:
 
 * `alpha`: this differs a lot among tasks, from 1e-1 to 1e3, and users may have to carefully tune it.
 * `hard_sum`: in fact, this factor reflects the number of the ground-truth stable covariates. Since we have no idea the exact number of them, we propose to simply set it to the input number of covariates, and alternatively adjust the parameter `lam`.
@@ -30,7 +30,7 @@ Further, we view the proposed HRM as a general framework, which contains several
 
 
 
-ps: I am really unsatisfied with the style of my code, and a better version is under development.  
+ps: I am really unsatisfied with the style of my code, and a better version is under development. For questions, feel free to contact liujiashuo77@gmail.com. 
 
 [1]Jiashuo Liu, Zheyuan Hu, Peng Cui, Bo Li, and Zheyan Shen. "Heterogeneous Risk Minimization." ICML(2021).
 [2]Yamada, Y., Lindenbaum, O., Negahban, S., and Kluger, Y. Feature selection using stochastic gates. ICML(2020).
